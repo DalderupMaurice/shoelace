@@ -1,14 +1,21 @@
 {
-  "name": "@acerta/acerta-shoelace",
+  "name": "@dalderupmaurice/shoelace",
   "description": "Shoelace dependencies",
   "packageManager": "yarn@3.3.0",
   "license": "MIT",
-  "author": "Kenneth Van den Berghe",
+  "author": "Maurice Dalderup",
   "version": "0.0.0",
   "main": "dist/shoelace.js",
   "module": "dist/shoelace.js",
   "exports": {
     ".": "./dist/shoelace.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalderupmaurice/shoelace.git"
+  },
+  "publishConfig": {
+    "@dalderupmaurice:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "analyze": "echo 'execute analyze'",
