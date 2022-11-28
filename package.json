@@ -1,15 +1,10 @@
 {
   "name": "@dalderupmaurice/shoelace",
-  "description": "Shoelace dependencies",
-  "packageManager": "yarn@3.3.0",
-  "license": "MIT",
   "author": "Maurice Dalderup",
-  "version": "0.0.0",
-  "main": "dist/shoelace.js",
-  "module": "dist/shoelace.js",
-  "exports": {
-    ".": "./dist/shoelace.js"
-  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dalderupmaurice/shoelace#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dalderupmaurice/shoelace.git"
@@ -17,12 +12,10 @@
   "publishConfig": {
     "@dalderupmaurice:registry": "https://npm.pkg.github.com"
   },
+  "main": "index.js",
   "scripts": {
-    "analyze": "echo 'execute analyze'",
-    "clean": "shx rm -rf dist/*",
-    "compile": "tsc -b --incremental",
-    "compile:watch": "tsc -b --incremental --watch",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "test"
   },
   "dependencies": {
     "@shoelace-style/shoelace": "2.0.0-beta.85"
@@ -32,7 +25,6 @@
     "@rollup/plugin-typescript": "10.0.0",
     "rollup": "3.5.0",
     "rollup-plugin-summary": "2.0.0",
-    "rollup-plugin-terser": "7.0.2",
     "tslib": "2.4.1",
     "typescript": "4.9.3"
   }
