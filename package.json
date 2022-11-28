@@ -5,11 +5,10 @@
   "license": "MIT",
   "author": "Kenneth Van den Berghe",
   "version": "0.0.0",
-  "main": "dist/src/index.js",
-  "module": "dist/src/index.js",
+  "main": "dist/shoelace.js",
+  "module": "dist/shoelace.js",
   "exports": {
-    ".": "./dist/src/index.js",
-    "./index.js": "./dist/src/acerta-shoelace.js"
+    ".": "./dist/shoelace.js"
   },
   "scripts": {
     "analyze": "echo 'execute analyze'",
