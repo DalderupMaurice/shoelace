@@ -1,0 +1,33 @@
+{
+  "name": "@acerta/acerta-shoelace",
+  "description": "Shoelace dependencies",
+  "packageManager": "yarn@3.3.0",
+  "license": "MIT",
+  "author": "Kenneth Van den Berghe",
+  "version": "0.0.0",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
+  "exports": {
+    ".": "./dist/src/index.js",
+    "./index.js": "./dist/src/acerta-shoelace.js"
+  },
+  "scripts": {
+    "analyze": "echo 'execute analyze'",
+    "clean": "shx rm -rf dist/*",
+    "compile": "tsc -b --incremental",
+    "compile:watch": "tsc -b --incremental --watch",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "2.0.0-beta.85"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-typescript": "10.0.0",
+    "rollup": "3.5.0",
+    "rollup-plugin-summary": "2.0.0",
+    "rollup-plugin-terser": "7.0.2",
+    "tslib": "2.4.1",
+    "typescript": "4.9.3"
+  }
+}
