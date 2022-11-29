@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/dalderupmaurice/shoelace.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
