@@ -2,7 +2,7 @@
   "name": "@dalderupmaurice/shoelace",
   "author": "Maurice Dalderup",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "homepage": "https://github.com/dalderupmaurice/shoelace#readme",
   "repository": {
@@ -12,7 +12,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "main": "./dist/shoelace.js",
   "scripts": {
     "build": "rollup -c",
     "test": "test"
